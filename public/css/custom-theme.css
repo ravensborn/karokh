@@ -1,0 +1,14 @@
+
+
+.home-banner img {
+    width: 100%;
+    height: auto;
+    /*object-fit: cover;*/
+}
+.custom-red {
+    background-color: #EA1C1C !important;
+}
+
+.custom-text-red {
+    color: #EA1C1C !important;
+}
