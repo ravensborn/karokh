@@ -46,11 +46,11 @@
 
                     <div class="row mt-3">
                         <div class="col-4">
-                            <label class="form-label" for="company_name">Your Company Name <span class="text-danger">*</span></label>
+                            <label class="form-label" for="company_name">Company Name <span class="text-danger">*</span></label>
                             <input type="text" id="company_name" class="form-control">
                         </div>
                         <div class="col-8">
-                            <label class="form-label" for="company_type">Your Company Type <span class="text-danger">*</span></label>
+                            <label class="form-label" for="company_type">Company Type <span class="text-danger">*</span></label>
                             <input type="text" id="company_type" class="form-control">
                         </div>
                     </div>

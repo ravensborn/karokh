@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Karokh Wi-Fi: Your smart solution for managing hotspots</title>
 
-    <meta name="description" content="Karokh Wi-Fi: Your smart solution for managing hotspots. Most hotel guests want Wi-Fi, and 98.4% expect it when booking.">
+    <meta name="description" content="Karokh Wi-Fi: Your smart solution for managing hotspots.">
     <meta property="og:site_name" content="Karokh Wi-Fi: Karokh.co - Your smart solution for managing hotspots" />
     <meta property="og:title" content="Karokh Wi-Fi: Karokh.co - Your smart solution for managing hotspots" />
-    <meta property="og:description" content="Karokh Wi-Fi: Your smart solution for managing hotspots. Most hotel guests want Wi-Fi, and 98.4% expect it when booking." />
+    <meta property="og:description" content="Karokh Wi-Fi: Your smart solution for managing hotspots." />
     <meta property="og:image" content="{{ asset('img/karokh-logo-dark.png') }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://karokh.co" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favico/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favico/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favico/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ asset('favico/site.webmanifest') }}">
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -36,15 +42,15 @@
     <div class="container">
         <div class="d-flex justify-content-between w-100">
             <div class="d-flex justify-content-center align-items-center gap-4">
-                <div>
-                    <a class="link text-white text-decoration-none" href="">KU</a>
-                </div>
-                <div>
-                    <a class="link text-white text-decoration-none" href="">EN</a>
-                </div>
-                <div>
-                    <a class="link text-white text-decoration-none" href="">AR</a>
-                </div>
+{{--                <div>--}}
+{{--                    <a class="link text-white text-decoration-none" href="">KU</a>--}}
+{{--                </div>--}}
+{{--                <div>--}}
+{{--                    <a class="link text-white text-decoration-none" href="">EN</a>--}}
+{{--                </div>--}}
+{{--                <div>--}}
+{{--                    <a class="link text-white text-decoration-none" href="">AR</a>--}}
+{{--                </div>--}}
             </div>
             <div>
                 <a class="link text-white text-decoration-none" href="{{ route('login') }}">
@@ -64,7 +70,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <span class="navbar-brand flex-grow-1">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="{{ route('home') }}">
             @if(request()->routeIs('home'))
                       <img src="{{ asset('img/karokh-logo.svg') }}" alt="Bootstrap" width="120" height="auto">
                   @else
@@ -112,15 +118,9 @@
             <div class="col-12 col-md-4 mb-5 mb-md-0 text-center">
                 <p class="text-white mt-3" style="font-size: 25px; text-decoration: underline;">Platform</p>
 
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">White
-                    Label</a>
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Social
-                    Login</a>
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Marketing
-                    Automation</a>
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Advertising</a>
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Monetize
-                    WiFi</a>
+
+                <a href="#" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Login</a>
+                <a href="{{ route('contact-us') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Support</a>
             </div>
 
             <div class="col-12 col-md-4 mb-5 mb-md-0 d-flex justify-content-center align-items-center">
@@ -132,13 +132,12 @@
             <div class="col-12 col-md-4 mb-5 mb-md-0 text-center">
                 <p class="text-white mt-3" style="font-size: 25px; text-decoration: underline;">Resources</p>
 
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Documentation</a>
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Gallery</a>
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Videos</a>
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Guides</a>
-                <a href="" class="d-block text-decoration-none text-white underline mt-3"
-                   style="font-size: 25px;">Blog</a>
-                <a href="" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Support</a>
+                <a href="{{ route('tutorials') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Tutorial</a>
+                <a href="{{ route('pricing') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Pricing</a>
+                <a href="{{ route('resources') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Resources</a>
+                <a href="{{ route('blog') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Blog</a>
+                <a href="{{ route('gallery') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Gallery</a>
+                <a href="{{ route('contact-us') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Contact US</a>
             </div>
         </div>
     </div>
