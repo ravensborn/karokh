@@ -15,10 +15,10 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p class="text-center display-6">
+                <h1 class="text-center display-6">
                     Karokh Wi-Fi: Your smart solution for managing hotspots. Most hotel guests want Wi-Fi, and 98.4% expect
                     it when booking.
-                </p>
+                </h1>
                 <p class="text-center lead custom-text-red">
                     Seamless Wi-Fi for your clients, valuable insights for your business.
                 </p>
@@ -31,8 +31,9 @@
 
     <div class="container-fluid">
 
-        <div class="row" style="background-color: black; height: 800px;">
+        <div class="row" style="background-color: black;">
             <div class="col-12">
+                <img class="img-fluid" style="width: 100%; height: auto; padding: 40px;" src="{{ asset('img/app.jpg') }}" alt="Karokh App">
             </div>
         </div>
     </div>

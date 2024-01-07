@@ -37,3 +37,9 @@ Route::get('/gallery', [PageController::class, 'gallery'])
 
 Route::get('/contact-us', [PageController::class, 'contact_us'])
     ->name('contact-us');
+
+
+Route::get('/privacy-and-policy', [PageController::class, 'privacy_policy'])
+    ->name('privacy-and-policy');
+Route::get('/user-data-deletion', [PageController::class, 'user_data_deletion'])
+    ->name('user-data-deletion');

@@ -28,4 +28,14 @@ class PageController extends Controller
     {
         return view('pages.contact-us');
     }
+
+    public function privacy_policy()
+    {
+        return view('pages.privacy-and-policy');
+    }
+
+    public function user_data_deletion()
+    {
+        return view('pages.user-data-deletion');
+    }
 }

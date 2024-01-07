@@ -3,7 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name') }}</title>
+    <title>Karokh Wi-Fi: Your smart solution for managing hotspots</title>
+
+    <meta name="description" content="Karokh Wi-Fi: Your smart solution for managing hotspots. Most hotel guests want Wi-Fi, and 98.4% expect it when booking.">
+    <meta property="og:site_name" content="Karokh Wi-Fi: Karokh.co - Your smart solution for managing hotspots" />
+    <meta property="og:title" content="Karokh Wi-Fi: Karokh.co - Your smart solution for managing hotspots" />
+    <meta property="og:description" content="Karokh Wi-Fi: Your smart solution for managing hotspots. Most hotel guests want Wi-Fi, and 98.4% expect it when booking." />
+    <meta property="og:image" content="{{ asset('img/karokh-logo-dark.png') }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://karokh.co" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -162,10 +171,10 @@
             </div>
             <div class="col-6 d-flex justify-content-end align-items-center">
                 <div class="me-5">
-                    <a class="text-white" href="">Terms and Conditions</a>
+                    <a class="text-white" href="{{ route('privacy-and-policy') }}">Privacy and Policy</a>
                 </div>
                 <div>
-                    <a class="text-white" href="">Privacy and Policy</a>
+                    <a class="text-white" href="{{ route('user-data-deletion') }}">User Data Deletion</a>
                 </div>
             </div>
         </div>
