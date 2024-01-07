@@ -38,4 +38,9 @@ class PageController extends Controller
     {
         return view('pages.user-data-deletion');
     }
+
+    public function terms_and_conditions()
+    {
+        return view('pages.terms-and-conditions');
+    }
 }
