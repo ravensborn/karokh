@@ -13,6 +13,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://karokh.co" />
 
+    <meta name="google-site-verification" content="tJfL36-sobyXa4Ww3eLVVGf_xXriKY6h4r7jpFXZvsE" />
+
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favico/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favico/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favico/favicon-16x16.png') }}">
