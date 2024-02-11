@@ -11,7 +11,7 @@
                     Give it a spin with the demo. Dive into the <br> Welcome Portal adventure!
                 </div>
                 <div class="text-secondary mt-3">
-                    The Welcome Portal is where guests land after connecting to WiFi. Check out what you can <br> do with your Karokh WIFI!
+                    The Welcome Portal is where guests land after connecting to WiFi. Check out what you can <br> do with your Karokh Wi-Fi!
                 </div>
             </div>
         </div>

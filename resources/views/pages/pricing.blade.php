@@ -26,7 +26,7 @@
                    <p class="text-secondary">
                        A safe online space to sell and oversee various venues. Just need an internet connection to handle it
                        anywhere, Anytime.!
-                       Select a plan that suits your needs. Karokh offers you unparalleled flexibility and scalability
+                       Select a plan that suits your needs. KarokhWifi offers you unparalleled flexibility and scalability
                        Every plan comes with all available features. Begin your journey today for free.
                    </p>
                </div>

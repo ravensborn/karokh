@@ -71,7 +71,7 @@
 
                     <div class="row mt-3">
                         <div class="col-12">
-                           <button class="btn custom-red text-white" style="width: 200px;">Contact Karokh WiFi</button>
+                           <button class="btn custom-red text-white" style="width: 200px;">Contact Support</button>
                         </div>
                     </div>
 

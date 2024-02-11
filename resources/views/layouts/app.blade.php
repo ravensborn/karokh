@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Karokh Wi-Fi: Your smart solution for managing hotspots</title>
+    <title>Karokh Wi-Fi LLC: Your smart solution for managing hotspots</title>
 
-    <meta name="description" content="Karokh Wi-Fi: Your smart solution for managing hotspots.">
-    <meta property="og:site_name" content="Karokh Wi-Fi: Karokh.co - Your smart solution for managing hotspots" />
-    <meta property="og:title" content="Karokh Wi-Fi: Karokh.co - Your smart solution for managing hotspots" />
-    <meta property="og:description" content="Karokh Wi-Fi: Your smart solution for managing hotspots." />
-    <meta property="og:image" content="{{ asset('img/karokh-logo-dark.png') }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://karokh.co" />
+    <meta name="description" content="Karokh Wi-Fi LLC: Your smart solution for managing hotspots.">
+    <meta property="og:site_name" content="Karokh Wi-Fi LLC: Karokh.co - Your smart solution for managing hotspots"/>
+    <meta property="og:title" content="Karokh Wi-Fi LLC: Karokh.co - Your smart solution for managing hotspots"/>
+    <meta property="og:description" content="Karokh Wi-Fi LLC: Your smart solution for managing hotspots."/>
+    <meta property="og:image" content="{{ asset('img/karokh-logo-dark.png') }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://karokh.co"/>
 
-    <meta name="google-site-verification" content="tJfL36-sobyXa4Ww3eLVVGf_xXriKY6h4r7jpFXZvsE" />
+    <meta name="google-site-verification" content="tJfL36-sobyXa4Ww3eLVVGf_xXriKY6h4r7jpFXZvsE"/>
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favico/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favico/favicon-32x32.png') }}">
@@ -44,15 +44,15 @@
     <div class="container">
         <div class="d-flex justify-content-between w-100">
             <div class="d-flex justify-content-center align-items-center gap-4">
-{{--                <div>--}}
-{{--                    <a class="link text-white text-decoration-none" href="">KU</a>--}}
-{{--                </div>--}}
-{{--                <div>--}}
-{{--                    <a class="link text-white text-decoration-none" href="">EN</a>--}}
-{{--                </div>--}}
-{{--                <div>--}}
-{{--                    <a class="link text-white text-decoration-none" href="">AR</a>--}}
-{{--                </div>--}}
+                {{--                <div>--}}
+                {{--                    <a class="link text-white text-decoration-none" href="">KU</a>--}}
+                {{--                </div>--}}
+                {{--                <div>--}}
+                {{--                    <a class="link text-white text-decoration-none" href="">EN</a>--}}
+                {{--                </div>--}}
+                {{--                <div>--}}
+                {{--                    <a class="link text-white text-decoration-none" href="">AR</a>--}}
+                {{--                </div>--}}
             </div>
             <div>
                 <a class="link text-white text-decoration-none" href="{{ route('login') }}">
@@ -72,13 +72,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <span class="navbar-brand flex-grow-1">
-              <a class="navbar-brand" href="{{ route('home') }}">
-            @if(request()->routeIs('home'))
-                      <img src="{{ asset('img/karokh-logo.svg') }}" alt="Bootstrap" width="120" height="auto">
-                  @else
-                      <img src="{{ asset('img/karokh-logo-dark.png') }}" alt="Bootstrap" width="120" height="auto">
-                  @endif
-        </a>
+            <a class="navbar-brand" href="{{ route('home') }}">
+                <h1>Karokh WiFi LLC</h1>
+            </a>
         </span>
         <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="navbar5">
             <ul class="navbar-nav ms-auto">
@@ -94,16 +90,19 @@
                     <a class="nav-link @if(request()->routeIs('pricing')) active @endif" href="{{ route('pricing') }}">Pricing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link @if(request()->routeIs('resources')) active @endif" href="{{ route('resources') }}">Resources</a>
+                    <a class="nav-link @if(request()->routeIs('resources')) active @endif"
+                       href="{{ route('resources') }}">Resources</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link @if(request()->routeIs('blog')) active @endif" href="{{ route('blog') }}">Blog</a>
+                    <a class="nav-link @if(request()->routeIs('blog')) active @endif"
+                       href="{{ route('blog') }}">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link @if(request()->routeIs('gallery')) active @endif" href="{{ route('gallery') }}">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link @if(request()->routeIs('contact-us')) active @endif" href="{{ route('contact-us') }}">Contact Us</a>
+                    <a class="nav-link @if(request()->routeIs('contact-us')) active @endif"
+                       href="{{ route('contact-us') }}">Contact Us</a>
                 </li>
             </ul>
         </div>
@@ -122,24 +121,34 @@
 
 
                 <a href="#" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Login</a>
-                <a href="{{ route('contact-us') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Support</a>
+                <a href="{{ route('contact-us') }}" class="d-block text-decoration-none text-white underline mt-3"
+                   style="font-size: 25px;">Support</a>
             </div>
 
             <div class="col-12 col-md-4 mb-5 mb-md-0 d-flex justify-content-center align-items-center">
                 <div>
                     <img style="width: 200px; height: auto;" src="{{ asset('img/karokh-logo.svg') }}" alt="Logo">
+                    <h3 class="text-white">
+                        Karokh WiFi LLC
+                    </h3>
                 </div>
             </div>
 
             <div class="col-12 col-md-4 mb-5 mb-md-0 text-center">
                 <p class="text-white mt-3" style="font-size: 25px; text-decoration: underline;">Resources</p>
 
-                <a href="{{ route('tutorials') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Tutorial</a>
-                <a href="{{ route('pricing') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Pricing</a>
-                <a href="{{ route('resources') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Resources</a>
-                <a href="{{ route('blog') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Blog</a>
-                <a href="{{ route('gallery') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Gallery</a>
-                <a href="{{ route('contact-us') }}" class="d-block text-decoration-none text-white underline mt-3" style="font-size: 25px;">Contact US</a>
+                <a href="{{ route('tutorials') }}" class="d-block text-decoration-none text-white underline mt-3"
+                   style="font-size: 25px;">Tutorial</a>
+                <a href="{{ route('pricing') }}" class="d-block text-decoration-none text-white underline mt-3"
+                   style="font-size: 25px;">Pricing</a>
+                <a href="{{ route('resources') }}" class="d-block text-decoration-none text-white underline mt-3"
+                   style="font-size: 25px;">Resources</a>
+                <a href="{{ route('blog') }}" class="d-block text-decoration-none text-white underline mt-3"
+                   style="font-size: 25px;">Blog</a>
+                <a href="{{ route('gallery') }}" class="d-block text-decoration-none text-white underline mt-3"
+                   style="font-size: 25px;">Gallery</a>
+                <a href="{{ route('contact-us') }}" class="d-block text-decoration-none text-white underline mt-3"
+                   style="font-size: 25px;">Contact US</a>
             </div>
         </div>
     </div>
@@ -168,7 +177,7 @@
 
         <div class="row" style="height: 50px;">
             <div class="col-6 d-flex justify-content-start align-items-center">
-                <div class="text-white">&copy; Copyright Karokh Company 2023, All right reserved</div>
+                <div class="text-white">&copy; Copyright KarokhWifi LLC Company 2023, All right reserved</div>
             </div>
             <div class="col-6 d-flex justify-content-end align-items-center">
                 <div class="me-5">
