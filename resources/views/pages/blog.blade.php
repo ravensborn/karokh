@@ -8,7 +8,7 @@
                 <img src="{{ asset('img/blog/banner.png') }}" alt="Banner Image">
                 <div class="display-6 text-start text-dark"
                      style=" position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%);">
-                    See how <span class="custom-text-red">KarokhWifi LLC tech</span> can boost <br> your business fun and easy!
+                    See how <span class="custom-text-red">KAROKH WIFI LLC tech</span> can boost <br> your business fun and easy!
                 </div>
             </div>
         </div>

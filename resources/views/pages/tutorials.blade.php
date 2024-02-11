@@ -7,7 +7,7 @@
             <div class="col home-banner" style="position: relative; text-align: center; color: white;">
                 <img src="{{ asset('img/tutorials/banner.png') }}" alt="Banner Image">
                 <div class="display-6 custom-text-red" style=" position: absolute; top: 50%; left: 35%; transform: translate(-50%, -50%);">
-                    Maximize your benefits <br> with KarokhWifi LLC.
+                    Maximize your benefits <br> with KAROKH WIFI LLC.
                 </div>
             </div>
         </div>

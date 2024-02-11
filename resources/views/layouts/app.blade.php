@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Karokh Wi-Fi LLC: Your smart solution for managing hotspots</title>
+    <title>KAROKH WIFI LLC: Your smart solution for managing hotspots</title>
 
-    <meta name="description" content="Karokh Wi-Fi LLC: Your smart solution for managing hotspots.">
-    <meta property="og:site_name" content="Karokh Wi-Fi LLC: Karokh.co - Your smart solution for managing hotspots"/>
-    <meta property="og:title" content="Karokh Wi-Fi LLC: Karokh.co - Your smart solution for managing hotspots"/>
-    <meta property="og:description" content="Karokh Wi-Fi LLC: Your smart solution for managing hotspots."/>
+    <meta name="description" content="KAROKH WIFI LLC: Your smart solution for managing hotspots.">
+    <meta property="og:site_name" content="KAROKH WIFI LLC: Karokh.co - Your smart solution for managing hotspots"/>
+    <meta property="og:title" content="KAROKH WIFI LLC: Karokh.co - Your smart solution for managing hotspots"/>
+    <meta property="og:description" content="KAROKH WIFI LLC: Your smart solution for managing hotspots."/>
     <meta property="og:image" content="{{ asset('img/karokh-logo-dark.png') }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://karokh.co"/>
@@ -73,7 +73,7 @@
         </button>
         <span class="navbar-brand flex-grow-1">
             <a class="navbar-brand" href="{{ route('home') }}">
-                <h1>Karokh WiFi LLC</h1>
+                <h1>KAROKH WIFI LLC</h1>
             </a>
         </span>
         <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="navbar5">
@@ -129,7 +129,7 @@
                 <div>
                     <img style="width: 200px; height: auto;" src="{{ asset('img/karokh-logo.svg') }}" alt="Logo">
                     <h3 class="text-white">
-                        Karokh WiFi LLC
+                        KAROKH WIFI LLC
                     </h3>
                 </div>
             </div>
@@ -177,7 +177,7 @@
 
         <div class="row" style="height: 50px;">
             <div class="col-6 d-flex justify-content-start align-items-center">
-                <div class="text-white">&copy; Copyright KarokhWifi LLC Company 2023, All right reserved</div>
+                <div class="text-white">&copy; Copyright KAROKH WIFI LLC Company 2023, All right reserved</div>
             </div>
             <div class="col-6 d-flex justify-content-end align-items-center">
                 <div class="me-5">

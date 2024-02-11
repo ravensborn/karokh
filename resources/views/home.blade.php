@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-12">
                 <h1 class="text-center display-6">
-                    Karokh Wi-Fi LLC: Your smart solution for managing hotspots. Most hotel guests want Wi-Fi, and 98.4% expect
+                    KAROKH WIFI LLC: Your smart solution for managing hotspots. Most hotel guests want Wi-Fi, and 98.4% expect
                     it when booking.
                 </h1>
                 <p class="text-center lead custom-text-red">
